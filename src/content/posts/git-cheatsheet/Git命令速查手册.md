@@ -2,7 +2,7 @@
 title: Git命令速查手册
 published: 2026-05-04
 description: Git命令速查手册请查收~
-image: Firefly/src/content/posts/git-cheatsheet/1755946172864.png
+image: ./1755946172864.webp
 tags:
   - Git
 category: 技术
@@ -55,8 +55,8 @@ licenseName: MIT
 
  git restore <file>          # 撤销工作区改动  
  git restore --staged <file> # 取消暂存  
- git reset --soft HEAD~1     # 撤销commit，保留改动  
- git reset --hard HEAD~1     # 彻底撤销（危险）  
+ git reset --soft HEAD~1      # 撤销commit，保留改动  
+ git reset --hard HEAD~1      # 彻底撤销（危险）  
  git revert <commit>         # 反向提交（安全撤销）
 
 ## 暂存与拣选
