@@ -1,38 +1,65 @@
-# 关于我 / About Me
+# 👋 你好，我是澜晔lan
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+一名热爱技术的开发者，喜欢探索各种前沿技术和分享学习心得。
 
-## 🛠️ 关于本站
+> [!TIP]
+> 欢迎在这里交流技术、分享生活、或者只是随便看看。
 
-这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+## 🎯 关于这个博客
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+这里是澜晔lan的个人空间，主要记录：
 
+- **技术学习笔记** - 编程、框架、工具使用心得
+- **项目实践分享** - 有趣的项目开发过程与经验
+- **生活随笔** - 日常思考、读书笔记、旅行记录
+- **知识整理** - 学习过程中的系统性总结
 
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
+## 🛠 技术栈与工具
 
-**🏠我的博客： [https://blog.cuteleaf.cn](https://blog.cuteleaf.cn/)**
+::github{repo="lanyefengren/astrbot_plugin_ZZULI_Notices"}
 
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
+### 💻 编程语言
 
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
+- Java
+- Python
+- C/C++
+- C#
 
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
+### 🚀 前端技术
+- Vue.js
+- Astro（本博客框架）
+- Tailwind CSS
+- Next.js
 
-::github{repo="CuteLeaf/Firefly"}
+## 🔧 后端技术
 
-::github{repo="saicaca/fuwari"}
+- Node.js
+- SpringBoot
+- MySQL 
+- Redis 
 
+### 🔧 开发工具
+- VS Code
+- Git & GitHub
+
+## 📚 最近在学习
+
+- Unity游戏引擎
 
 ## 📫 联系方式
 
-如果你想和我交流技术问题，分享有趣的想法，或者只是想打个招呼，欢迎通过以下方式联系我：
+- **GitHub**: [github.com/lanyefengren](https://github.com/你的用户名)
 
-- 💻 **GitHub**: [CuteLeaf](https://github.com/CuteLeaf)
-- ✉️ **Email**: [xiaye@msn.com](mailto:xiaye@msn.com)
-- 🐧 **QQ交流群：[1087127207](https://qm.qq.com/q/ZGsFa8qX2G)**
+## 📜 版权与转载
 
----
+本博客所有文章，如无特殊声明，均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议进行许可。
 
-*感谢你的来访！希望在这里能找到对你有用的内容！*
+你可以：
+- ✅ 自由分享、引用本文
+- ✅ 基于本文内容进行创作
+- ✅ 在非商业用途下使用
 
+请遵守：
+- ⚠️ 保留原文作者署名
+- ⚠️ 使用相同协议发布衍生作品
+- ⚠️ 不得用于商业目的

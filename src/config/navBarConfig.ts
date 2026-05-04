@@ -18,17 +18,21 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		LinkPreset.Archive,
 	];
 
-	// 根据配置决定是否添加友链，在siteConfig关闭pages.friends时导航栏不显示友链
+	/*// 根据配置决定是否添加友链，在siteConfig关闭pages.friends时导航栏不显示友链
 	if (siteConfig.pages.friends) {
 		links.push(LinkPreset.Friends);
-	}
+	}*/
 
-	// 根据配置决定是否添加留言板，在siteConfig关闭pages.guestbook时导航栏不显示留言板
+	/*// 根据配置决定是否添加留言板，在siteConfig关闭pages.guestbook时导航栏不显示留言板
 	if (siteConfig.pages.guestbook) {
 		links.push(LinkPreset.Guestbook);
+	}*/
+	// 根据配置决定是否添加番组计划，在siteConfig关闭pages.Bangumi时导航栏不显示番组计划
+	if (siteConfig.pages.bangumi) {
+		links.push(LinkPreset.Bangumi);
 	}
 
-	// 我的及其子菜单
+	/*// 我的及其子菜单
 	links.push({
 		name: "我的",
 		url: "/my/",
@@ -40,23 +44,24 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			// 根据配置决定是否添加番组计划，在siteConfig关闭pages.bangumi时导航栏不显示番组计划
 			...(siteConfig.pages.bangumi ? [LinkPreset.Bangumi] : []),
 		],
-	});
+	});*/
 
 	// 关于及其子菜单
 	links.push({
-		name: "关于",
+		name: "其他",
 		url: "/content/",
 		icon: "material-symbols:info",
 		children: [
-			// 根据配置决定是否添加赞助，在siteConfig关闭pages.sponsor时导航栏不显示赞助
-			...(siteConfig.pages.sponsor ? [LinkPreset.Sponsor] : []),
-
 			// 关于页面
 			LinkPreset.About,
+			// 根据配置决定是否添加赞助，在siteConfig关闭pages.sponsor时导航栏不显示赞助
+			...(siteConfig.pages.sponsor ? [LinkPreset.Sponsor] : []),
+			...(siteConfig.pages.friends ? [LinkPreset.Friends] : []),
+			...(siteConfig.pages.guestbook ? [LinkPreset.Guestbook] : []),
 		],
 	});
 
-	// 自定义导航栏链接,并且支持多级菜单
+	/*// 自定义导航栏链接,并且支持多级菜单
 	links.push({
 		name: "链接",
 		url: "/links/",
@@ -83,7 +88,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-brands:qq",
 			},
 		],
-	});
+	});*/
 
 	// 仅返回链接，其它导航搜索相关配置在模块顶层常量中独立导出
 	return { links } as NavBarConfig;

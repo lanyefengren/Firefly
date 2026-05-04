@@ -8,7 +8,7 @@ export const friendsPageConfig: FriendsPageConfig = {
 	title: "",
 
 	// 页面描述文本，如果留空则使用 i18n 中的翻译
-	description: "",
+	description: "相关链接~",
 
 	// 是否显示底部自定义内容（friends.mdx 中的内容）
 	showCustomContent: true,
@@ -17,7 +17,7 @@ export const friendsPageConfig: FriendsPageConfig = {
 	showComment: true,
 
 	// 是否开启随机排序配置，如果开启，就会忽略权重，构建时进行一次随机排序
-	randomizeSort: false,
+	randomizeSort: true,
 };
 
 // 友链配置
@@ -29,7 +29,7 @@ export const friendsConfig: FriendLink[] = [
 		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
 		siteurl: "https://blog.cuteleaf.cn",
 		tags: ["Blog"],
-		weight: 10, // 权重，数字越大排序越靠前
+		weight: 0, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
 	{
@@ -38,7 +38,7 @@ export const friendsConfig: FriendLink[] = [
 		desc: "Firefly主题模板文档",
 		siteurl: "https://docs-firefly.cuteleaf.cn",
 		tags: ["Docs"],
-		weight: 9,
+		weight: 0,
 		enabled: true,
 	},
 	{
@@ -47,7 +47,25 @@ export const friendsConfig: FriendLink[] = [
 		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
 		siteurl: "https://github.com/withastro/astro",
 		tags: ["Framework"],
-		weight: 8,
+		weight: 0,
+		enabled: true,
+	},
+	{
+		title: "Astrbot",
+		imgurl: "https://avatars.githubusercontent.com/u/197911947?s=48&v=4",
+		desc: "一个开源的一站式 Agentic 个人和群聊助手",
+		siteurl: "https://github.com/AstrBotDevs/AstrBot",
+		tags: ["Agentic"],
+		weight: 0,
+		enabled: true,
+	},
+	{
+		title: "Mizuki Docs",
+		imgurl: "https://q.qlogo.cn/headimg_dl?dst_uin=3231515355&spec=640&img_type=jpg",
+		desc: "Mizuki User Manual",
+		siteurl: "https://docs.mizuki.mysqil.com",
+		tags: ["Docs"],
+		weight: 0,
 		enabled: true,
 	},
 ];
