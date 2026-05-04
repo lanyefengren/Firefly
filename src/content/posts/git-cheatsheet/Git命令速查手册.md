@@ -9,7 +9,6 @@ category: 技术
 pinned: false
 author: lanye
 licenseName: MIT
-password:
 ---
 ## 仓库操作
 
